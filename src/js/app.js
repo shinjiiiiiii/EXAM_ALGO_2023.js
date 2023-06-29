@@ -1,7 +1,7 @@
 import '../css/style.css';
 import '../css/reset.css';
 
-"use strick";
+"use strict"
 
 // EXO 1 :
 // Écrivez une fonction qui prend deux nombres en argument
@@ -9,9 +9,9 @@ import '../css/reset.css';
 // f(4,2) retourne true
 // f(4,7) retourne false
 
-function superieur(n1,n2){
-    return n1 > n2
-}superieur(1,5)
+// function superieur(n1,n2){
+//     return n1 > n2
+// }superieur(1,5)
 
 
 // EXO 2 :
@@ -32,9 +32,6 @@ function superieur(n1,n2){
 // Écrivez un algorithme pour vérifier si une chaîne de caractères donnée est un palindrome.
 // f("kayak") retourne true
 // f("test") retourne false
-
-:
-
 
 // let str = 'kayak'
 // for(let i = 0; i < str.length; i++){
@@ -84,9 +81,6 @@ function superieur(n1,n2){
     
 //     let words = str.split(' ')
 //     let words2 = str2.split(' ')
-//     console.log(words);
-//     console.log(words2);
-
 
 // }anagramme("La crise économique","Le scénario comique")
 
@@ -234,9 +228,10 @@ function superieur(n1,n2){
 //     let arr2 = []
 //     for(let i = 0; i < arr.length; i++){
 //         if(int === arr[i]){
-//             arr2.push(arr.indexOf(arr[i]))
+//             let del = arr.indexOf(arr[i])
+//             arr2.push(del)
+//             delete arr[del]
 //         } 
-        
 //     }
 //     console.log(arr);
 //     console.log(arr2);
