@@ -19,9 +19,13 @@ function superieur(n1,n2){
 // Vous ne devez pas utiliser la méthode reverse
 // f("test") retourne "tset"
 
-// function revers(str){
-
-// }revers("test")
+// function inverser(str){
+//     let reversedStr = ""
+//     for(let i = str.length - 1; i >= 0; i--) {
+//         reversedStr += str[i]
+//     }
+//     console.log(reversedStr)
+// }inverser("test")
 
 // EXO 3 :
 // Un palindrome est un mot qui se lit dans les deux sens ("kayak")
