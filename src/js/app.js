@@ -24,7 +24,7 @@ function superieur(n1,n2){
 //     for(let i = str.length - 1; i >= 0; i--) {
 //         reversedStr += str[i]
 //     }
-//     console.log(reversedStr)
+//     return reversedStr
 // }inverser("test")
 
 // EXO 3 :
@@ -32,6 +32,9 @@ function superieur(n1,n2){
 // Écrivez un algorithme pour vérifier si une chaîne de caractères donnée est un palindrome.
 // f("kayak") retourne true
 // f("test") retourne false
+
+:
+
 
 // let str = 'kayak'
 // for(let i = 0; i < str.length; i++){
